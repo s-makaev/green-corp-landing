@@ -26,5 +26,31 @@
         </div>
 
     </section>
+    <section class="form">
+        <div class="form__container">
+            <h1>Оставьте свои контакты</h1>
+            <p>Поможем подобрать модель.<br>
+                Выбрать удобный вариант доставки и установки <br> 
+                Гарантия возврата денег.</p>
+                <form>
+                    <div class="form__group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" placeholder="Введите имя" id="name">
+                        <label for="email">Электронный адрес</label>
+                        <input type="email" placeholder="***@yandex.ru" id="email">
+                        <label for="phone">Номер телефона</label>
+                        <input type="number" placeholder="7(999)999-99-99" id="phone">
+                        <label for="budget"></label>
+                        <select name="budget" id="budget">
+                            <option value="10-30">10000р - 30000р</option>
+                            <option value="30-60">30000р - 60000р</option>
+                            <option value="60-100">60000р - 100000р</option>
+                            <option value="100+">100000р</option>
+                        </select>
+                    </div>
+                    <button class="form__submit" type="submit">Отправить заявку</button>
+                </form>
+        </div>
+    </section>
 </body>
 </html>
